@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eval.css">
+    <title>Evaluation Table</title>
+    
+</head>
+<body>
+    <center>
+       <input id="colNum" type="number" placeholder="Columns">
+       <input  id="rowNum" type="number" placeholder="Rows">
+       <select name="" id="selectOperator">
+           <option value="" disabled selected>Select an Operation</option>
+           <option value="+">ADDITION</option>
+           <option value="-">SUBTRACTION</option>
+           <option value="*">MULTIPLICATION</option>
+           <option value="/">DIVISION</option>
+       </select>
+       <button onclick="evaluation()">Make me a Table</button>
+       <br>
+       <br>
+       <br>
+       <br>
+    
+       <table id="tableId" border="1">
+
+       <table>
+    </center>
+
+    <script src="eval.js"></script>
+</body>
+</html>

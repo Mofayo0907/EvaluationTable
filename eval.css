@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    padding: 5px 0;
+}
+
+table{
+    border: solid 1px black;
+}
